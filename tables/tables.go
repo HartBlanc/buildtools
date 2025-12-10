@@ -196,7 +196,7 @@ var NamePriority = map[string]int{
 
 var StripLabelLeadingSlashes = false
 
-var ShortenAbsoluteLabelsToRelative = false
+var ShortenAbsoluteLabelsToRelative = true
 
 // AndroidNativeRules lists all Android rules that are being migrated from Native to Starlark.
 var AndroidNativeRules = []string{
